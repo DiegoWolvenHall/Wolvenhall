@@ -6,7 +6,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="icon" href="img/favicon.png" type="image/png">
-	<title>Comodo Games</title>
+	<title>WolvenHall</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="vendors/linericon/style.css">
@@ -38,27 +38,49 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav justify-content-center">
-							<li class="nav-item active"><a class="nav-link" href="index.html">Analytics</a></li>
-							<li class="nav-item"><a class="nav-link" href="about-us.html">Data Science</a></li>
-							<li class="nav-item"><a class="nav-link" href="gallery.html">Artificial Intelligence</a>
+
+							<li class="nav-item submenu dropdown">
+								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+								 aria-expanded="false">Analytics</a>
+								<ul class="dropdown-menu">
+									<li class="nav-item"><a class="nav-link" href="blog.html">BI</a></li>
+									<li class="nav-item"><a class="nav-link" href="single-blog.html">Data Architecture</a></li>
+								</ul>
+							</li>
+
+							<li class="nav-item submenu dropdown">
+									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+									 aria-expanded="false">Data Science</a>
+									<ul class="dropdown-menu">
+										<li class="nav-item"><a class="nav-link" href="gallery.html">Industry Solutions</a></li>
+										<li class="nav-item"><a class="nav-link" href="single-blog.html">Uses Cases</a></li>
+									</ul>
+							</li>
+
+							<li class="nav-item submenu dropdown">
+									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+									 aria-expanded="false">Artificial Intelligence</a>
+									<ul class="dropdown-menu">
+										<li class="nav-item"><a class="nav-link" href="gallery.html">Machine Learning</a></li>
+										<li class="nav-item"><a class="nav-link" href="single-blog.html">Virtual Assistens</a></li>
+										<li class="nav-item"><a class="nav-link" href="single-blog.html">Natural Language Proccesing</a></li>
+									</ul>
+							</li>
+				
 							<li class="nav-item submenu dropdown">
 								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
 								 aria-expanded="false">Services</a>
 								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="price.html">Pricing</a>
-									<li class="nav-item"><a class="nav-link" href="games.html">Games</a>
-									<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a>
+									<li class="nav-item"><a class="nav-link" href="price.html">Data Hive</a>
+									<li class="nav-item"><a class="nav-link" href="games.html">Staff Argumentation</a>
+									<li class="nav-item"><a class="nav-link" href="elements.html">Learning</a>
+									<li class="nav-item"><a class="nav-link" href="elements.html">AR/VR</a>
 								</ul>
 							</li>
-							<li class="nav-item submenu dropdown">
-								<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-								 aria-expanded="false">Blog</a>
-								<ul class="dropdown-menu">
-									<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-									<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-								</ul>
-							</li>
-							<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+							
+							<li class="nav-item"><a class="nav-link" href="contact.html">Privacy notice</a></li>
+
+							<li class="nav-item"><a class="nav-link" href="contact.html">Blog</a></li>
 						</ul>
 						
 					</div>
@@ -69,8 +91,7 @@
 	<!--================Header Menu Area =================-->
 
 	<!--================Home Banner Area =================-->
-	<section class="home_banner_area">
-		
+	<section class="home_banner_area">		
 		<div class="hero">
 			<div class="grid">
 			  <div class="grid-block block1"></div>
@@ -163,170 +184,225 @@
 					<img src="WolvenhallHead.png" alt="" style="width: 250px; margin-top: 190px; margin-left: 300px;">
 					
 				</div>
-				<h1 style="color: white; margin-top: 190px; margin-left: 600px;">YOUR NEW REALITY</h1>
-				<h2 style="color: white;  margin-left: 600px;">An Integrated Strategy is what converts</h2>
-				<h2 style="color: white;  margin-left: 600px;">technology in a winning solution</h2>
-		  </div>
-
-
+				<h1 style="color: black; margin-top: 250px; margin-left: 600px;">YOUR NEW REALITY</h1>
+				<h2 style="color: black;  margin-left: 600px;">An Integrated Strategy is what converts</h2>
+				<h2 style="color: black;  margin-left: 600px;">technology in a winning solution</h2>
+		</div>
 	</section>
 	<!--================End Home Banner Area =================-->
 
-	<!--================Start About Us Area =================-->
-	<section class="about_us_area section_gap_top">
-		<div class="container">
-			<div class="row about_content align-items-center">
-				<div class="col-lg-6">
-					<div class="section_content">
-						<h6>About Us</h6>
-						<h1>We Believe that <br>Interior beauty Lasts Long</h1>
-						<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-							especially in the workplace. That’s why it’s crucial that as women.</p>
-						<a class="primary_btn" href="#">Learn More</a>
-					</div>
-				</div>
-				<div class="col-lg-6">
-					<div class="about_us_image_box justify-content-center">
-						<img class="img-fluid w-100" src="img/about_img.png" alt="">
+	<!--================Start Recent Update Area =================-->
+	<section class="recent_update_area section_gap">
+			<div class="container">
+				<div class="recent_update_inner">
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<li class="nav-item">
+							<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
+								Data Hive
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+							 aria-selected="false">
+								Digital Transformation
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
+							 aria-selected="false">
+								Data Science
+							</a>
+						</li>
+					</ul>
+					<div class="tab-content" id="myTabContent">
+						<div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
+							<div class="row recent_update_text">
+								<div class="col-lg-6">
+									<div class="chart_img">
+										<img class="img-fluid" src="img/recent_up.png" alt="">
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="section_content">
+										<h6>Data Hive</h6>
+										<h1>We Believe that </h1>
+										<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
+											especially in the workplace. That’s why it’s crucial that as women.</p>
+										<a class="primary_btn" href="#">Learn More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+							<div class="row recent_update_text">
+								<div class="col-lg-6">
+									<div class="chart_img">
+										<img class="img-fluid" src="img/recent_up.png" alt="">
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="section_content">
+										<h6>Digital Transformation</h6>
+										<h1>We Believe that </h1>
+										<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
+											especially in the workplace. That’s why it’s crucial that as women.</p>
+										<a class="primary_btn" href="#">Learn More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="tab-pane fade show active" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+							<div class="row recent_update_text">
+								<div class="col-lg-6">
+									<div class="chart_img">
+										<img class="img-fluid" src="img/recent_up.png" alt="">
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="section_content">
+										<h6>Data Science</h6>
+										<h1>We Believe that <br>Interior beauty </h1>
+										<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
+											especially in the workplace. That’s why it’s crucial that as women.</p>
+										<a class="primary_btn" href="#">Learn More</a>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
 	</section>
-	<!--================End About Us Area =================-->
+	<!--================End Recent Update Area =================-->
+	
+
+	<!--================Start About Us Area =================-->
+	<!-- <section style="margin-top: 60px;">
+			<div class="container">
+			  <div class="row justify-content-center mb-5 pb-5">
+				<div class="col-md-7 text-center heading-section ftco-animate">
+				  <span class="subheading">Our Services</span>
+				  <h2>Racks provides a fully featured text services platform!</h2>
+				</div>
+			  </div>
+			  <div class="row">
+				<div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+				  <div class="media block-6 services d-block text-center">
+					<div class="d-flex justify-content-center"><div class="icon color-1 d-flex justify-content-center mb-3"><span class="align-self-center icon-layers"></span></div></div>
+					<div class="media-body p-2">
+					  <h3 class="heading">Unlimited Features</h3>
+					  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+					</div>
+				  </div>      
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+				  <div class="media block-6 services d-block text-center">
+					<div class="d-flex justify-content-center"><div class="icon color-2 d-flex justify-content-center mb-3"><span class="align-self-center icon-gears"></span></div></div>
+					<div class="media-body p-2">
+					  <h3 class="heading">Multiple Functions</h3>
+					  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+					</div>
+				  </div>      
+				</div>
+				<div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+				  <div class="media block-6 services d-block text-center">
+					<div class="d-flex justify-content-center"><div class="icon color-3 d-flex justify-content-center mb-3"><span class="align-self-center icon-paper-plane"></span></div></div>
+					<div class="media-body p-2">
+					  <h3 class="heading">Advanced Visualizations</h3>
+					  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+					</div>
+				  </div>    
+				</div>
+	  
+				<div class="col-md-6 col-lg-3 d-flex align-self-stretch ftco-animate">
+				  <div class="media block-6 services d-block text-center">
+					<div class="d-flex justify-content-center"><div class="icon color-4 d-flex justify-content-center mb-3"><span class="align-self-center icon-live_help"></span></div></div>
+					<div class="media-body p-2">
+					  <h3 class="heading">Community &amp; Supports</h3>
+					  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.</p>
+					</div>
+				  </div>      
+				</div>
+			  </div>
+			</div>
+	</section> -->
+	<!--================Start About Us Area =================-->
 
 	<!--================First Upcoming Games Area =================-->
 	<section class="upcoming_games_area">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12">
-					<div class="main_title">
-						<h2>Upcoming Games</h2>
-						<h1>Upcoming Games</h1>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="main_title">
+							<h2>Services</h2>
+							<h1>Services</h1>
+						</div>
+					</div>
+				</div>
+				<div class="row text-center">
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="new_games_item">
+							<img src="img/b_map1.png" alt="">
+							<div class="upcoming_title">
+								<h3><a href="games.html">Best Ps4 Games</a></h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="new_games_item">
+							<img src="img/b_map2.png" alt="">
+							<div class="upcoming_title">
+								<h3><a href="games.html">World Dart 2019</a></h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="new_games_item">
+							<img src="img/b_map3.png" alt="">
+							<div class="upcoming_title">
+								<h3><a href="games.html">New XBox Games</a></h3>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="new_games_item">
+							<img src="img/b_map4.png" alt="">
+							<div class="upcoming_title">
+								<h3><a href="games.html">Amarican Football</a></h3>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="row text-center">
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="new_games_item">
-						<img src="img/b_map1.png" alt="">
-						<div class="upcoming_title">
-							<h3><a href="games.html">Best Ps4 Games</a></h3>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="new_games_item">
-						<img src="img/b_map2.png" alt="">
-						<div class="upcoming_title">
-							<h3><a href="games.html">World Dart 2019</a></h3>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="new_games_item">
-						<img src="img/b_map3.png" alt="">
-						<div class="upcoming_title">
-							<h3><a href="games.html">New XBox Games</a></h3>
-						</div>
-					</div>
-				</div>
-				<div class="col-lg-3 col-md-6 col-sm-6">
-					<div class="new_games_item">
-						<img src="img/b_map4.png" alt="">
-						<div class="upcoming_title">
-							<h3><a href="games.html">Amarican Football</a></h3>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-	<!--================End Upcoming Games Area =================-->
+		</section>
+		<!--================End Upcoming Games Area =================-->
 
-	<!--================Start Recent Update Area =================-->
-	<section class="recent_update_area section_gap">
-		<div class="container">
-			<div class="recent_update_inner">
-				<ul class="nav nav-tabs" id="myTab" role="tablist">
-					<li class="nav-item">
-						<a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">
-							Live Streaming
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
-						 aria-selected="false">
-							Upcoming Challanges
-						</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
-						 aria-selected="false">
-							Recent Famous Games
-						</a>
-					</li>
-				</ul>
-				<div class="tab-content" id="myTabContent">
-					<div class="tab-pane fade" id="home" role="tabpanel" aria-labelledby="home-tab">
-						<div class="row recent_update_text">
-							<div class="col-lg-6">
-								<div class="chart_img">
-									<img class="img-fluid" src="img/recent_up.png" alt="">
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="section_content">
-									<h6>About Us</h6>
-									<h1>We Believe that <br>Interior beauty Lasts Long</h1>
-									<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-										especially in the workplace. That’s why it’s crucial that as women.</p>
-									<a class="primary_btn" href="#">Learn More</a>
-								</div>
-							</div>
+
+	<!--================Start About Us Area =================-->
+	<section class="about_us_area section_gap_top">
+			<div class="container">
+				<div class="row about_content align-items-center">
+					<div class="col-lg-6">
+						<div class="section_content">
+							<h6>Data Visualization and Reporting</h6>
+							<h1>Options  <br>in Analytics software</h1>
+							<p>In order for data to be usable and meaningful, it needs intelligent and informative representation. Our data visualization experts can profile your data through creative charts, infographics, heat maps and so on to help you unlock hidden value, uncover new insights, generate custom reports and create your very own decision support system.</p>
+							<a class="primary_btn" href="#">Learn More</a>
 						</div>
 					</div>
-					<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-						<div class="row recent_update_text">
-							<div class="col-lg-6">
-								<div class="chart_img">
-									<img class="img-fluid" src="img/recent_up.png" alt="">
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="section_content">
-									<h6>About Us</h6>
-									<h1>We Believe that <br>Interior beauty Lasts Long</h1>
-									<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-										especially in the workplace. That’s why it’s crucial that as women.</p>
-									<a class="primary_btn" href="#">Learn More</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="tab-pane fade show active" id="contact" role="tabpanel" aria-labelledby="contact-tab">
-						<div class="row recent_update_text">
-							<div class="col-lg-6">
-								<div class="chart_img">
-									<img class="img-fluid" src="img/recent_up.png" alt="">
-								</div>
-							</div>
-							<div class="col-lg-6">
-								<div class="section_content">
-									<h6>About Us</h6>
-									<h1>We Believe that <br>Interior beauty Lasts Long</h1>
-									<p>inappropriate behavior is often laughed off as “boys will be boys,” women face higher conduct standards
-										especially in the workplace. That’s why it’s crucial that as women.</p>
-									<a class="primary_btn" href="#">Learn More</a>
-								</div>
-							</div>
+					<div class="col-lg-6">
+						<div class="about_us_image_box justify-content-center">
+							<img class="img-fluid w-100" src="dashboard_full_1.jpg" alt="">
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
-	<!--================End Recent Update Area =================-->
+		</section>
+	<!--================End About Us Area =================-->
+
+	
+
+	
 
 
 	<!--================ Start Gallery Area =================-->
@@ -460,6 +536,7 @@
 
 
 	<!--================ Start Pricing Plans Area ================-->
+	<!--
 	<section class="pricing_area section_gap">
 		<div class="container">
 			<div class="row">
@@ -521,11 +598,11 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!--================ End Pricing Plans Area ================-->
 
-
 	<!--================ Start Frequently Asked Questions Area ================-->
+	<!--
 	<section class="frequently_area">
 		<div class="container">
 			<div class="row">
@@ -582,6 +659,7 @@
 			</div>
 		</div>
 	</section>
+	-->
 	<!--================ End Frequently Asked Questions Area ================-->
 
 	<!--================ Start Blog Area ================-->
@@ -651,6 +729,25 @@
 		</div>
 	</section>
 	<!--================ End Blog Area ================-->
+
+	<!--================Start About Us Area =================-->
+	<section class="about_us_area" style="padding-top: 20px;">
+			<div class="about_content_section">
+				<div class="row  align-items-center">
+					<div class="col-lg-12">
+						<div class="section_content">
+							<h6>About Us</h6>
+							<h1>WolvenHall <br>Your New Reality </h1>
+							<p>We have come far from the days when analytics was available in only 2 flavors, and all the data we wanted to analyze was neatly stored in just a few transactional systems.
+							   All this against the backdrop of legacy systems and business areas with ever growing power to buy technology independent from the systems department. The mix and match you need to deal with to keep your end users happy and your information safe and structured yet highly available to be processed trough all available strategies putts pressure on the best of us.
+							   More than ever the need arises to  develop integrated strategies not focusing on merely buying the latest wave of tech but resolving real business needs.</p>
+							<a class="primary_btn" href="#">Learn More</a>
+						</div>
+					</div>				
+				</div>
+			</div>
+	</section>
+	<!--================End   About Us Area =================-->
 
 	<!--================ Start Newsletter Area ================-->
 	<section class="newsletter_area">
