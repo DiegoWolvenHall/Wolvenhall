@@ -3883,7 +3883,9 @@ h6 {
   transform: rotate(45deg);
 }
 .grid .grid-block {
-  background: #03085527;
+  /*background: #03085527;*/
+  background: #3fc9ff36;
+  opacity: 0.1;
   margin: 3px;
   display: inline-block;
   position: absolute;
